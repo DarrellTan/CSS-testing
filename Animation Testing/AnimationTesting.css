@@ -1,0 +1,9 @@
+@keyframes test {
+    from {transform: translate(50%, 57%)}
+    to {transform: translate(0%, 0%);}
+}
+
+div {
+    animation-name: test;
+    animation-duration: 4s;
+}
